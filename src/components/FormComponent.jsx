@@ -65,7 +65,7 @@ function FormComponent({ onAddSet }) {
                         name="name"
                         value={formData.name}
                         onChange={handleInputChange}
-                        className="p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="p-2 border bg-yellow-50 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
                 </div>
                 <div className="flex flex-col">
@@ -81,7 +81,7 @@ function FormComponent({ onAddSet }) {
                         name="brand"
                         value={formData.brand}
                         onChange={handleInputChange}
-                        className="p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="p-2 border bg-yellow-50 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
                 </div>
                 <div className="flex flex-col">
@@ -97,7 +97,7 @@ function FormComponent({ onAddSet }) {
                         name="setNumber"
                         value={formData.setNumber}
                         onChange={handleInputChange}
-                        className="p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500"
+                        className="p-2 border bg-yellow-50 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500"
                     />
                 </div>
                 <div className="flex flex-col">
@@ -113,7 +113,7 @@ function FormComponent({ onAddSet }) {
                         name="releaseYear"
                         value={formData.releaseYear}
                         onChange={handleInputChange}
-                        className="p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500"
+                        className="p-2 border bg-yellow-50 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500"
                     />
                 </div>
                 <button

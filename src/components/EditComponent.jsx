@@ -81,7 +81,7 @@ function EditComponent() {
                         name="name"
                         value={set.name}
                         onChange={handleInputChange}
-                        className="p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="p-2 border bg-yellow-50 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
                 </div>
                 <div className="flex flex-col">
@@ -97,7 +97,7 @@ function EditComponent() {
                         name="brand"
                         value={set.brand}
                         onChange={handleInputChange}
-                        className="p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="p-2 border bg-yellow-50 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
                 </div>
                 <div className="flex flex-col">
@@ -113,7 +113,7 @@ function EditComponent() {
                         name="setNumber"
                         value={set.setNumber}
                         onChange={handleInputChange}
-                        className="p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500"
+                        className="p-2 border bg-yellow-50 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500"
                     />
                 </div>
                 <div className="flex flex-col">
@@ -129,7 +129,7 @@ function EditComponent() {
                         name="releaseYear"
                         value={set.releaseYear}
                         onChange={handleInputChange}
-                        className="p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500"
+                        className="p-2 border bg-yellow-50 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500"
                     />
                 </div>
                 <button
