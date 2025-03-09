@@ -11,7 +11,7 @@ function SetItem() {
     useEffect(() => {
         async function fetchSets() {
             try {
-                const response = await fetch(`http://145.24.223.249:8100/sets/` + id, {
+                const response = await fetch(`http://localhost:8100/sets/` + id, {
                     method: "GET",
                     headers: {
                         Accept: "application/json",
@@ -32,7 +32,7 @@ function SetItem() {
     const deleteLegoSet = () => {
         async function deleteSet() {
             try {
-                const response = await fetch(`http://145.24.223.249:8100/sets/` + id, {
+                const response = await fetch(`http://localhost:8100/sets/` + id, {
                     method: "DELETE",
                     headers: {
                         Accept: "application/json",

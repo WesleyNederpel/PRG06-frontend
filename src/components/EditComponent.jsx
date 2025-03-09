@@ -15,7 +15,7 @@ function EditComponent() {
     useEffect(() => {
         async function fetchSet() {
             try {
-                const response = await fetch("http://145.24.223.249:8100/sets/" + id, {
+                const response = await fetch("http://localhost:8100/sets/" + id, {
                     method: "GET",
                     headers: {
                         Accept: "application/json",
@@ -47,7 +47,7 @@ function EditComponent() {
 
     const saveLegoSet = async () => {
         try {
-            const response = await fetch("http://145.24.223.249:8100/sets/" + id, {
+            const response = await fetch("http://localhost:8100/sets/" + id, {
                 method: "PUT",
                 headers: {
                     Accept: "application/json",

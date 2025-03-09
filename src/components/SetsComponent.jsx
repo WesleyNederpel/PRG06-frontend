@@ -7,7 +7,7 @@ function SetsComponent() {
     useEffect(() => {
         async function fetchSets() {
             try {
-                const response = await fetch("http://145.24.223.249:8100/sets/", {
+                const response = await fetch("http://localhost:8100/sets/", {
                     method: "GET",
                     headers: {
                         Accept: "application/json",
